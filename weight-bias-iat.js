@@ -3,16 +3,16 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 
 	return iatExtension({
 			category1 : {
-				name : 'Black people', //Will appear in the data and in the default feedback message.
+				name : 'Overweight people', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Black people'}, //Name of the category presented in the task.
+					media : {word : 'Overweight people'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
+					{word: 'Fat'},
+					{word: 'Large'},
+					{word: 'Obese'},
 					{word: 'Jazmin'},
 					{word: 'Tiara'},
 					{word: 'Shanice'}
@@ -21,16 +21,16 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'White people', //Will appear in the data and in the default feedback message.
+				name : 'Thin people', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'White people'}, //Name of the category presented in the task.
+					media : {word : 'Thin people'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Jake'},
-					{word: 'Connor'},
-					{word: 'Bradley'},
+					{word: 'Skinny'},
+					{word: 'Slim'},
+					{word: 'Thin'},
 					{word: 'Allison'},
 					{word: 'Emma'},
 					{word: 'Emily'}
@@ -47,9 +47,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'awful'},
-					{word: 'failure'},
-					{word: 'agony'},
+					{word: 'lazy'},
+					{word: 'slow'},
+					{word: 'sluggish'},
 					{word: 'hurt'},
 					{word: 'horrible'},
 					{word: 'terrible'},
@@ -68,9 +68,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'laughter'},
-					{word: 'happy'},
-					{word: 'glorious'},
+					{word: 'determined'},
+					{word: 'eager'},
+					{word: 'motivated'},
 					{word: 'joy'},
 					{word: 'wonderful'},
 					{word: 'peace'},
