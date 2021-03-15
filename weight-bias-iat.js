@@ -3,19 +3,16 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 
 	return iatExtension({
 			category1 : {
-				name : 'Overweight people', //Will appear in the data and in the default feedback message.
+				name : 'Fat people', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Overweight people'}, //Name of the category presented in the task.
+					media : {word : 'Fat people'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
 					{word: 'Fat'},
 					{word: 'Large'},
-					{word: 'Obese'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
+					{word: 'Obese'}
 				],
 				//Stimulus css (style)
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
@@ -30,10 +27,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 				stimulusMedia : [ //Stimuli content as PIP's media objects
 					{word: 'Skinny'},
 					{word: 'Slim'},
-					{word: 'Thin'},
-					{word: 'Allison'},
-					{word: 'Emma'},
-					{word: 'Emily'}
+					{word: 'Thin'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
@@ -47,14 +41,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'lazy'},
-					{word: 'slow'},
-					{word: 'sluggish'},
-					{word: 'hurt'},
 					{word: 'horrible'},
 					{word: 'terrible'},
-					{word: 'nasty'},
-					{word: 'evil'}
+					{word: 'nasty'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -68,13 +57,8 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'determined'},
-					{word: 'eager'},
-					{word: 'motivated'},
 					{word: 'joy'},
 					{word: 'wonderful'},
-					{word: 'peace'},
-					{word: 'pleasure'},
 					{word: 'love'}
 				],
 				//Stimulus css
