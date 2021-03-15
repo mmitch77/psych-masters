@@ -41,9 +41,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'horrible'},
-					{word: 'terrible'},
-					{word: 'nasty'}
+					{word: 'Horrible'},
+					{word: 'Terrible'},
+					{word: 'Nasty'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -57,9 +57,41 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'joy'},
-					{word: 'wonderful'},
-					{word: 'love'}
+					{word: 'Joy'},
+					{word: 'Wonderful'},
+					{word: 'Love'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+		        attribute3 :
+			{
+				name : 'Lazy words',
+				title : {
+					media : {word : 'Lazy words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'Slow'},
+					{word: 'Lazy'},
+					{word: 'Sluggish'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+			attribute4 :
+			{
+				name : 'Motivated words',
+				title : {
+					media : {word : 'Motivated words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'Determined'},
+					{word: 'Motivated'},
+					{word: 'Eager'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
